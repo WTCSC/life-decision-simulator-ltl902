@@ -45,6 +45,7 @@ def loop():
                     dream()
             elif balcony == "2":
                 type_out("As you're walking back inside, you trip and get sucked into endless space. You drift for years and get run over by a space car because you drifted onto a space highway and die.")
+                dream()
             else:
                 print("Invalid input. Please enter 1 or 2.")
         elif getup != "1" and getup != "2" and getup != "3":
